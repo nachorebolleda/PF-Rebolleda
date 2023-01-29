@@ -156,10 +156,21 @@ header > nav > a:hover{
 .fotosGaleria{
     padding: 15px;
 }
-div > div > img{
-    width: 800px;
-    height: 500px;
+.carousel-inner img {
+    width: 95%;
+    height: 95%;
 }
+.carousel-inner{
+ height: 600px;
+ width: 1200px;
+ margin: auto;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: black;
+    outline: black;
+    
+}
+
 /* Fin contenido de galeria.html */
 
 footer{
