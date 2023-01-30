@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nachorebolleda/PreEntrega2+Rebolleda.git"
+    "url": "git+https://github.com/nachorebolleda/PreEntrega2-Rebolleda.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nachorebolleda/PreEntrega2+Rebolleda/issues"
+    "url": "https://github.com/nachorebolleda/PreEntrega2-Rebolleda/issues"
   },
-  "homepage": "https://github.com/nachorebolleda/PreEntrega2+Rebolleda#readme",
+  "homepage": "https://github.com/nachorebolleda/PreEntrega2-Rebolleda#readme",
   "devDependencies": {
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"
