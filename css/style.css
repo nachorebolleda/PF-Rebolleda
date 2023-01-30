@@ -31,16 +31,24 @@ header > nav{
     padding: 15px 30px;
     border-radius: 20px;
 }
-header > nav > a{
+header > nav > ul > li > a{
     color: rgb(250, 253, 255);
     text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
     font-size: 22px;
     font-weight:500;
 }
-header > nav > a:hover{
+header > nav > ul{
+    margin-bottom: 0;
+}
+header > nav > ul > li > a:hover{
     background-color: rgb(250, 253, 255);
     color: rgb(10, 22, 65);
     transition: 0.4s background-color;
+}
+header > nav > ul > li{
+    display: inline-block;
 }
 #linkPlantel{
     margin-left: 70px;
@@ -48,6 +56,18 @@ header > nav > a:hover{
 .noHome{
     margin-left: 30px;
 }
+
+.checkbtn{
+    font-size: 30px;
+    color: rgb(250, 253, 255);
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
 /* Contenido de index.html */
 .contenidoIndex{
     width: auto;
@@ -195,4 +215,51 @@ footer > img{
     height: 70px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .checkbtn{
+        display: block;
+    }
+    header > nav > ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(10, 22, 65);
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        padding-left: 0;
+    }
+    header > nav{
+        height: 75px;
+    }
+    header > nav > ul > li{
+        display: block;
+        margin: 20px 0;
+        line-height: 40px;
+
+    }
+    header > nav > ul > li > a{
+        font-size: 20px;
+        margin: 0px;
+    }
+    header > nav > ul > li > a:hover, header > nav > ul > li > a.hover{
+        background-color: rgb(250, 253, 255);
+        color: rgb(10, 22, 65);
+        transition: 0.4s background-color;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    #linkPlantel{
+        margin-left: 0px;
+    }
+    .noHome{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 873px){
+    
 }
