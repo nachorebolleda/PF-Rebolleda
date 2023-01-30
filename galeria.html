@@ -17,16 +17,28 @@
 </head>
 <body> 
     <div id="fondoPrincipal">
-        <header>
-            <h1>2018: CADA VEZ MAS GIGANTE</h1>
-            <nav>
-                <a href="index.html">HOME</a>
-                <a href="plantel.html" id="linkPlantel">PLANTEL</a>
-                <a href="partidos.html" class="noHome">PARTIDOS</a>
-                <a href="historia.html" class="noHome">HISTORIA</a>
-                <a href="galeria.html" class="noHome">GALERIA</a>
-            </nav>
-        </header>
+      <header>
+        <h1>2018: CADA VEZ MAS GIGANTE</h1>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </label>
+            <ul>
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="plantel.html" id="linkPlantel">PLANTEL</a></li>
+                <li><a href="partidos.html" class="noHome">PARTIDOS</a></li>
+                <li><a href="historia.html" class="noHome">HISTORIA</a></li>
+                <li><a href="galeria.html" class="noHome">GALERIA</a></li>
+                <li>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </header>
             <!-- Termina el header y empieza el contenido -->
             <div id="carouselGaleria" class="carousel slide contenidoGaleria">
                 <div class="carousel-inner">
