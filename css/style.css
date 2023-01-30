@@ -23,7 +23,6 @@ div > header > h1{
     color: rgb(10, 22, 65);  
     letter-spacing: 6px;
 }
-
 header > nav{
     margin-left: 50px;
     margin-right: 50px;
@@ -218,6 +217,7 @@ footer > img{
     margin-right: 20px;
 }
 
+/* MEDIA QUERYS PARA PANTALLA MEDIANA-PEQUEÑA */
 @media screen and (max-width: 768px){
     div > header > h1{
         color: rgb(10, 22, 65);
@@ -273,7 +273,38 @@ footer > img{
     .noHome{
         margin-left: 0px;
     }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items:center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background-color: rgb(10, 22, 65);
+        border-radius: 10px;
+    }
+    footer > div{
+        padding-left: 10px;
+        padding-right: 10px;
+        color: rgb(250, 253, 255);
+        
+    }
+    footer > img{
+        width: 10%;
+        height: 10%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #primerfooter{
+        font-size: 80%;
+    }
+    #segundofooter{
+        display: none;
+    }
 }
+
+/* CORRECCIÓN DE MEDIA QUERYS PARA PANTALLA MEDIANA-GRANDE */
 @media screen and (min-width: 769px) and (max-width: 873px){
     div > header > h1{
         color: rgb(10, 22, 65);
