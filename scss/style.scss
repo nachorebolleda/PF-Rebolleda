@@ -1,6 +1,7 @@
 $colorFondoPrincipal: rgb(161, 203, 243);
 $colorOscuro: rgb(10, 22, 65);
 $colorBlanco: rgb(250, 253, 255);
+$margenPartidos: 20px;
 
 *{
     font-family: 'Open Sans', sans-serif;
@@ -122,47 +123,44 @@ div {
 }
 
 /* Contenido de partidos.html */
-.contenidoPartidos{
-    width: auto;
-    height: auto;
-    margin: 20px 50px;
-    padding: 0 10px;
-    div{
-        img{
-            height: 400px; 
-            width: 800px;
-        }
-    }
-}
 .parrafo-foto{
-    display: flex;
+    display: block;
     align-items: center;
-    margin-top: 40px;
+    margin: $margenPartidos;
 }
 .foto-parrafo{
-    display: flex;
+    display: block;
     align-items: center;
-    margin-top: 40px;
+    margin: $margenPartidos;
 }
 .titulo2{
-    padding: 15px 0px;
     font-size: 40px;
     color: $colorOscuro;
-    margin: 0;
+    margin: $margenPartidos;
 }
 .parrafo1{
     font-weight: 600;
     font-size: 19px;
-    margin-right: 50px;
-    margin-top: 0px;
+    margin: $margenPartidos;
 }
 .parrafo2{
-    margin-top: 0px;
     font-weight: 600;
     font-size: 19px;
-    margin-left: 50px;
-    align-items: center;
+    margin: $margenPartidos;
 }
+.contenidoPartidos{
+    width: auto;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    div{
+        img{
+            height: 80%; 
+            width: 80%;
+        }
+    }
+}
+
 
 /* Contenido de historia.html */
 .contenidoHistoria{
@@ -338,4 +336,50 @@ footer{
             }
         }
     }
+}
+
+// CORRECCIÓN DE TAMAÑO IMAGENES EN "partidos.html"
+@media screen and (min-width: 1300px) {
+    .contenidoPartidos{
+        width: auto;
+        height: auto;
+        margin: 20px 50px;
+        padding: 0 10px;
+        div{
+            img{
+                height: 50%; 
+                width: 50%;
+            }
+        }
+    }
+    .parrafo-foto{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .foto-parrafo{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .titulo2{
+        padding: 15px 0px;
+        font-size: 40px;
+        color: $colorOscuro;
+        text-align: start;
+        margin-left: $margenPartidos;
+    }
+    .parrafo1{
+        font-weight: 600;
+        font-size: 19px;
+        margin-right: 50px;
+        margin-top: 0px;
+    }
+    .parrafo2{
+        margin-top: 0px;
+        font-weight: 600;
+        font-size: 19px;
+        margin-left: 50px;
+        align-items: center;
+    }   
 }

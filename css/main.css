@@ -105,43 +105,39 @@ div header h1 {
   height: 75%; }
 
 /* Contenido de partidos.html */
-.contenidoPartidos {
-  width: auto;
-  height: auto;
-  margin: 20px 50px;
-  padding: 0 10px; }
-  .contenidoPartidos div img {
-    height: 400px;
-    width: 800px; }
-
 .parrafo-foto {
-  display: flex;
+  display: block;
   align-items: center;
-  margin-top: 40px; }
+  margin: 20px; }
 
 .foto-parrafo {
-  display: flex;
+  display: block;
   align-items: center;
-  margin-top: 40px; }
+  margin: 20px; }
 
 .titulo2 {
-  padding: 15px 0px;
   font-size: 40px;
   color: #0a1641;
-  margin: 0; }
+  margin: 20px; }
 
 .parrafo1 {
   font-weight: 600;
   font-size: 19px;
-  margin-right: 50px;
-  margin-top: 0px; }
+  margin: 20px; }
 
 .parrafo2 {
-  margin-top: 0px;
   font-weight: 600;
   font-size: 19px;
-  margin-left: 50px;
-  align-items: center; }
+  margin: 20px; }
+
+.contenidoPartidos {
+  width: auto;
+  height: auto;
+  align-items: center;
+  text-align: center; }
+  .contenidoPartidos div img {
+    height: 80%;
+    width: 80%; }
 
 /* Contenido de historia.html */
 .contenidoHistoria {
@@ -280,3 +276,38 @@ footer {
     -webkit-text-stroke: 1px white;
     color: #0a1641;
     letter-spacing: 2px; } }
+
+@media screen and (min-width: 1300px) {
+  .contenidoPartidos {
+    width: auto;
+    height: auto;
+    margin: 20px 50px;
+    padding: 0 10px; }
+    .contenidoPartidos div img {
+      height: 50%;
+      width: 50%; }
+  .parrafo-foto {
+    display: flex;
+    align-items: center;
+    margin-top: 40px; }
+  .foto-parrafo {
+    display: flex;
+    align-items: center;
+    margin-top: 40px; }
+  .titulo2 {
+    padding: 15px 0px;
+    font-size: 40px;
+    color: #0a1641;
+    text-align: start;
+    margin-left: 20px; }
+  .parrafo1 {
+    font-weight: 600;
+    font-size: 19px;
+    margin-right: 50px;
+    margin-top: 0px; }
+  .parrafo2 {
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 19px;
+    margin-left: 50px;
+    align-items: center; } }
