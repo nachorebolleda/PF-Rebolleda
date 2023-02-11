@@ -36,7 +36,7 @@ div {
                         box-sizing: border-box;
                         font-size: 22px;
                         font-weight:500;
-                        :hover{
+                        &:hover{
                             background-color: $colorBlanco;
                             color: $colorOscuro;
                             transition: 0.4s background-color;
@@ -110,7 +110,7 @@ div {
     padding: 10px 10px;
     background-color: $colorBlanco;
     text-align: center;
-    :hover{
+    &:hover{
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 }
@@ -245,7 +245,7 @@ footer{
                         a{
                             font-size: 20px;
                             margin: 0px;
-                            :hover{
+                            &:hover{
                                 background-color: $colorBlanco;
                                 color: $colorOscuro;
                                 transition: 0.4s background-color;

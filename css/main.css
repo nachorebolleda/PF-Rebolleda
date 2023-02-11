@@ -29,7 +29,7 @@ div header nav {
         box-sizing: border-box;
         font-size: 22px;
         font-weight: 500; }
-        div header nav ul li a :hover {
+        div header nav ul li a:hover {
           background-color: #fafdff;
           color: #0a1641;
           transition: 0.4s background-color; }
@@ -94,7 +94,7 @@ div header h1 {
   padding: 10px 10px;
   background-color: #fafdff;
   text-align: center; }
-  .card :hover {
+  .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
 
 .container {
@@ -213,7 +213,7 @@ footer {
         div header nav ul li a {
           font-size: 20px;
           margin: 0px; }
-          div header nav ul li a :hover {
+          div header nav ul li a:hover {
             background-color: #fafdff;
             color: #0a1641;
             transition: 0.4s background-color; }
