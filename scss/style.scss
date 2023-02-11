@@ -17,6 +17,8 @@ $margenPartidos: 20px;
 div {
     header {
         nav{
+            position: relative;
+            z-index: 2;
             margin-left: 50px;
             margin-right: 50px;
             background-color: $colorOscuro;
