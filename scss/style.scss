@@ -166,10 +166,17 @@ div {
 .contenidoHistoria{
     width: auto;
     height: auto;
-    margin: 20px 50px;
+    margin: $margenPartidos;
+    .titulo2{
+        text-align: center;
+        margin: $margenPartidos;
+        font-size: 40px;
+    }
 }
 .parrafohistoria{
     font-size: 20px;
+    text-align: center;
+    margin: $margenPartidos;
 }
 
 /* Contenido de galeria.html */
@@ -339,7 +346,7 @@ footer{
 }
 
 // CORRECCIÓN DE TAMAÑO IMAGENES EN "partidos.html"
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
     .contenidoPartidos{
         width: auto;
         height: auto;
@@ -371,15 +378,31 @@ footer{
     }
     .parrafo1{
         font-weight: 600;
-        font-size: 19px;
+        font-size: 22px;
         margin-right: 50px;
         margin-top: 0px;
     }
     .parrafo2{
         margin-top: 0px;
         font-weight: 600;
-        font-size: 19px;
+        font-size: 22px;
         margin-left: 50px;
         align-items: center;
-    }   
+    }
+
+    //Corrección alineado historia.html
+    .contenidoHistoria{
+        width: auto;
+        height: auto;
+        margin: 20px 50px;
+        .titulo2{
+            text-align: start;
+            margin: $margenPartidos;
+        }
+    }
+    .parrafohistoria{
+        font-size: 22px;
+        text-align: center;
+        margin: $margenPartidos;
+    }
 }

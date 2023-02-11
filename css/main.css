@@ -143,10 +143,16 @@ div header h1 {
 .contenidoHistoria {
   width: auto;
   height: auto;
-  margin: 20px 50px; }
+  margin: 20px; }
+  .contenidoHistoria .titulo2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 40px; }
 
 .parrafohistoria {
-  font-size: 20px; }
+  font-size: 20px;
+  text-align: center;
+  margin: 20px; }
 
 /* Contenido de galeria.html */
 .contenidoGaleria {
@@ -277,7 +283,7 @@ footer {
     color: #0a1641;
     letter-spacing: 2px; } }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
   .contenidoPartidos {
     width: auto;
     height: auto;
@@ -302,12 +308,23 @@ footer {
     margin-left: 20px; }
   .parrafo1 {
     font-weight: 600;
-    font-size: 19px;
+    font-size: 22px;
     margin-right: 50px;
     margin-top: 0px; }
   .parrafo2 {
     margin-top: 0px;
     font-weight: 600;
-    font-size: 19px;
+    font-size: 22px;
     margin-left: 50px;
-    align-items: center; } }
+    align-items: center; }
+  .contenidoHistoria {
+    width: auto;
+    height: auto;
+    margin: 20px 50px; }
+    .contenidoHistoria .titulo2 {
+      text-align: start;
+      margin: 20px; }
+  .parrafohistoria {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px; } }
