@@ -98,6 +98,10 @@ div header h1 {
     text-align: center; }
     .contenidoPlantel .card:hover {
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+    .contenidoPlantel .card img {
+      border-radius: 7px; }
+    .contenidoPlantel .card h4 {
+      margin-top: 8px; }
     .contenidoPlantel .card .container {
       padding: 2px 16px; }
     .contenidoPlantel .card .fotoCard {
@@ -313,7 +317,8 @@ footer {
       width: 230px;
       font-size: 90%; }
       .contenidoPlantel .card h4 {
-        font-size: 100%; } }
+        font-size: 100%;
+        margin-top: 8px; } }
 
 @media screen and (min-width: 1200px) {
   .contenidoPartidos {

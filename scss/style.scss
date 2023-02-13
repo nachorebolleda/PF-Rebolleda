@@ -115,6 +115,12 @@ div {
         &:hover{
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
         }
+        img{
+            border-radius: 7px;
+        }
+        h4{
+            margin-top: 8px;
+        }
         .container {
             padding: 2px 16px;
         }
@@ -385,6 +391,7 @@ footer{
             font-size: 90%;
             h4{
                 font-size: 100%;
+                margin-top: 8px;
             }
         }
     }
