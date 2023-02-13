@@ -19,8 +19,8 @@ div {
         nav{
             position: relative;
             z-index: 2;
-            margin-left: 50px;
-            margin-right: 50px;
+            margin-left: 20px;
+            margin-right: 20px;
             background-color: $colorOscuro;
             padding: 15px 30px;
             border-radius: 20px;
@@ -239,7 +239,11 @@ footer{
     div{
         header{
             nav{
-                height: 75px;
+                height: 40px;
+                padding: 0px 25px;
+                .checkbtn{
+                    font-size: 25px;
+                }
                 ul{
                     position: fixed;
                     width: 100%;
@@ -268,7 +272,7 @@ footer{
             }
             h1{
                 color: $colorOscuro;
-                font-size: 45px;
+                font-size: 35px;
                 padding-top: 50px;
                 padding-bottom: 30px;
                 margin-top: 0px;

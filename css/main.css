@@ -13,8 +13,8 @@
 div header nav {
   position: relative;
   z-index: 2;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
   background-color: #0a1641;
   padding: 15px 30px;
   border-radius: 20px; }
@@ -199,7 +199,10 @@ footer {
 
 @media screen and (max-width: 768px) {
   div header nav {
-    height: 75px; }
+    height: 40px;
+    padding: 0px 25px; }
+    div header nav .checkbtn {
+      font-size: 25px; }
     div header nav ul {
       position: fixed;
       width: 100%;
@@ -223,7 +226,7 @@ footer {
             transition: 0.4s background-color; }
   div header h1 {
     color: #0a1641;
-    font-size: 45px;
+    font-size: 35px;
     padding-top: 50px;
     padding-bottom: 30px;
     margin-top: 0px;
