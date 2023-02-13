@@ -96,33 +96,35 @@ div {
 .contenidoPlantel{
     display: grid;
     grid-gap: 6rem;
-    grid-template-columns: repeat(auto-fill, 350px);
+    grid-template-columns: repeat(auto-fill, 300px);
     /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
     width: auto;
     height: auto;
     margin: 20px 50px;
+    justify-content: center;
     justify-items: center;
-}
-.card{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    height: 425px;
-    width: 300px;
-    padding: 10px 10px;
-    background-color: $colorBlanco;
-    text-align: center;
-    &:hover{
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    .card{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        height: 425px;
+        width: 300px;
+        padding: 10px 10px;
+        background-color: $colorBlanco;
+        text-align: center;
+        &:hover{
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        .container {
+            padding: 2px 16px;
+        }
+        .fotoCard{
+            width: 100%;
+            height: 75%;
+        }
     }
 }
-.container {
-    padding: 2px 16px;
-}
-.fotoCard{
-    width: 100%;
-    height: 75%;
-}
+
 
 /* Contenido de partidos.html */
 .parrafo-foto{
@@ -225,6 +227,8 @@ footer{
         margin-right: 20px;
     }
 }
+
+// RESPONSIVE PARA CELULARES 
 @media screen and (max-width: 768px){
     div{
         header{
@@ -283,6 +287,24 @@ footer{
     }
     .noHome{
         margin-left: 0px;
+    }
+    .contenidoPlantel{
+        grid-gap: 2rem;
+        grid-template-columns: repeat(auto-fill, 200px);
+        /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
+        width: auto;
+        height: auto;
+        margin: 10px 25px;
+        justify-content: center;
+        justify-items: center;
+        .card{
+            height: 230px;
+            width: 170px;
+            font-size: 70%;
+            h4{
+                font-size: 100%;
+            }
+        }
     }
     footer{
         display: flex;
@@ -346,6 +368,28 @@ footer{
         }
     }
 }
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+    .contenidoPlantel{
+        grid-gap: 4rem;
+        grid-template-columns: repeat(auto-fill, 250px);
+        /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
+        width: auto;
+        height: auto;
+        margin: 20px 40px;
+        justify-content: center;
+        justify-items: center;
+        .card{
+            height: 325px;
+            width: 230px;
+            font-size: 90%;
+            h4{
+                font-size: 100%;
+            }
+        }
+    }
+}
+
 
 // CORRECCIÓN DE TAMAÑO IMAGENES EN "partidos.html"
 @media screen and (min-width: 1200px) {
