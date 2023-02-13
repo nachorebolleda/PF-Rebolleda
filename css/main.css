@@ -74,7 +74,7 @@ div header h1 {
   text-align: center; }
   .contenidoIndex iframe {
     height: 100%;
-    width: 90%; }
+    width: 100%; }
 
 /* Contenido de plantel.html */
 .contenidoPlantel {
@@ -245,6 +245,12 @@ footer {
     margin-left: 0px; }
   .noHome {
     margin-left: 0px; }
+  .contenidoIndex {
+    height: 400px;
+    padding: 50px 0; }
+    .contenidoIndex iframe {
+      height: 100%;
+      width: 100%; }
   .contenidoPlantel {
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fill, 200px);

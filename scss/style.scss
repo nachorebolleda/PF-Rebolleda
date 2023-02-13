@@ -88,7 +88,7 @@ div {
     text-align: center;
     iframe{
         height: 100%;
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -297,6 +297,14 @@ footer{
     }
     .noHome{
         margin-left: 0px;
+    }
+    .contenidoIndex{
+        height: 400px;
+        padding: 50px 0;
+        iframe{
+            height: 100%;
+            width: 100%;
+        }
     }
     .contenidoPlantel{
         grid-gap: 2rem;
