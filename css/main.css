@@ -315,7 +315,9 @@ footer {
     text-shadow: 1px 1px 10px;
     -webkit-text-stroke: 1px white;
     color: #0a1641;
-    letter-spacing: 2px; } }
+    letter-spacing: 2px; }
+  #primerfooter {
+    font-size: 80%; } }
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
   .contenidoPlantel {
